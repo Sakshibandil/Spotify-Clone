@@ -1,0 +1,109 @@
+body{
+    background-color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logo img{
+    height:40px;
+    width: 40px;
+    padding: 0,5px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+     list-style: none;
+     height: 40px;
+     background-color: black;
+     color: white;
+    }
+    nav ul li{
+        padding: 12px;
+    }
+    .container{ 
+        min-height: 70vh;
+        background-color: black;
+        color: white;
+        font-family:'Times New Roman', Times, serif;
+        display: flex;
+        margin:25px auto;
+        width:70%;
+        border-radius: 12px;
+        padding: 25px;
+        background: url(bgimg1.jpg) no-repeat center center/cover;
+       
+    }
+    .bottom{
+        position: sticky;
+        height:85px;
+        width:100%;
+        background-color: black;
+        color: white;
+        bottom:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .icons{
+        margin-top: -11px;
+        padding: 16px;
+    
+        
+        
+    }
+    .icons i{
+        cursor: pointer;
+        
+    }
+    #myprogressbar{
+        width: 85vw;
+        cursor: pointer;
+    }
+    .songitemcontainer{
+        margin-top: 20px;
+    }
+
+    .songitem{
+        height:40px;
+        display: flex;
+        background-color: azure;
+        color: black;
+       /* width:302px;*/
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 20px;
+        margin:10px
+    }
+
+    .songitem img{
+        width:37px;
+        margin:  8px;
+        border-radius: 75px;
+        
+
+    }
+
+    .timestamp{
+        margin:26px;
+    }
+    .timestamp i{
+        cursor: pointer;
+    }
+
+    .songinfo{
+        position: absolute;
+        left: 9vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+   
